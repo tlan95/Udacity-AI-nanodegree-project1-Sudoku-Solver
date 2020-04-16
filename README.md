@@ -6,14 +6,14 @@ This project creates a Sudoku-solving agent in order to solve diagonal Sudoku pu
 
 ## Strategies
 
-**Strategy 1: Elimination**
-If a box has a value assigned, then none of the peers of this box can have this value.
-**Strategy 2: Only Choice**
-If there is only one box in a unit which would allow a certain digit, then that box must be assigned that digit.
-**Strategy 3: Naked Twins**
-If you have two or more unallocated boxes in a unit and there are only two digits that can go in those two boxes, then those two digits can be eliminated from the possible assignments of all other boxes in the same unit.
-**Strategy 4: Search**
-Pick a box with a minimal number of possible values. Try to solve each of the puzzles obtained by choosing each of these values, recursively.
+**Strategy 1: Elimination**<br />
+If a box has a value assigned, then none of the peers of this box can have this value.<br />
+**Strategy 2: Only Choice**<br />
+If there is only one box in a unit which would allow a certain digit, then that box must be assigned that digit.<br />
+**Strategy 3: Naked Twins**<br />
+If you have two or more unallocated boxes in a unit and there are only two digits that can go in those two boxes, then those two digits can be eliminated from the possible assignments of all other boxes in the same unit.<br />
+**Strategy 4: Search**<br />
+Pick a box with a minimal number of possible values. Try to solve each of the puzzles obtained by choosing each of these values, recursively.<br />
 
 ## Code
 
