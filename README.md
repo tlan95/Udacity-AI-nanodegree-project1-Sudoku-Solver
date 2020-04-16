@@ -2,7 +2,7 @@
 
 ## Goal of the project
 
-This project creates a Sudoku-solving agent in order to solve diagonal Sudoku puzzles. A diagonal Sudoku puzzle is identical to traditional Sudoku puzzles with the added constraint that the boxes on the two main diagonals of the board must also contain the digits 1-9 in each cell (just like the rows, columns, and 3x3 blocks). 
+This project creates a Sudoku-solving agent in order to solve diagonal Sudoku puzzles by **Constraint Propagation** and **Search**. A diagonal Sudoku puzzle is identical to traditional Sudoku puzzles with the added constraint that the boxes on the two main diagonals of the board must also contain the digits 1-9 in each cell (just like the rows, columns, and 3x3 blocks). 
 
 ## Strategies
 
